@@ -12,5 +12,6 @@ def describir_persona(nombre, edad):
         menor = ""
     return f"{nombre} tiene {edad} años{menor}"
 
-print(describir_persona("Sergio", 22))
-print(describir_persona("Pedro", 16))
+if __name__ == "__main__":
+    print(describir_persona("Sergio", 22))
+    print(describir_persona("Pedro", 16))
